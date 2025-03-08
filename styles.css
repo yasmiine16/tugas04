@@ -1,0 +1,79 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fbc7d4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background: #ebd3d9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea, select, button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a7285f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a7285f;
+}
+
+.cv-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.foto img {
+    width: 150px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: 150px; /* Pastikan sama dengan width agar berbentuk lingkaran */
+    border-radius: 50%; /* Membuat foto berbentuk lingkaran */
+    object-fit: cover; /* Memastikan foto terisi penuh tanpa distorsi */
+    border: 3px solid #a7285f; /* Tambahkan border untuk estetika */
+}
+
+.biodata {
+    margin-top: 20px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #dc0a0a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
